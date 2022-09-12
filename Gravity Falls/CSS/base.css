@@ -1,0 +1,39 @@
+.topbar{
+    background-color:#7b896b;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topbar-img{
+    width: auto;
+    height: auto;
+    max-width: 170px;
+    max-height: 300px;
+}
+.topbar-navs{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+.topbar-navs li{
+    display: inline-block;
+    text-align: center;
+    padding-right: 200px;
+}
+.topbar-navs li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.topbar-navs li a:hover{
+    color:  #b25744;
+    transition: 0.4s;
+    text-shadow: 1px 1px rgb(64, 85, 64);
+}

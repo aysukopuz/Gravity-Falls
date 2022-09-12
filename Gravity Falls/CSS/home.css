@@ -1,0 +1,44 @@
+body{
+    background-image: url("../Images/mysteryshack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.middle table{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 10% ;
+}
+.middle table tr td{
+    padding-left: 10px;
+}
+.info{
+    border: 0px solid pink;
+    height: 200px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 65%;
+    color: wheat;
+    text-align: center;
+}
+div img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.char{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+.char a img:hover{
+    margin-left: 30px;
+    transition: 0.5s;
+    /*transform: rotate(180deg);*/
+    transform: scale(1.1,1.1);
+}
+.characters{
+    margin-left: 30px;
+    margin-top: 250px;
+}
+

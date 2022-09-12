@@ -1,0 +1,19 @@
+body{
+    background-image: url("../Images/episodes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.episodes a{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: rgb(255, 68, 0);
+    text-decoration: none;
+}
+.episodes :hover{
+    color:  #b25744;
+    transition: 0.4s;
+    text-shadow: 1px 1px rgb(64, 85, 64);
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+body{
+    background-image: url(../Images/falling_dollars.png) ;
+    background-repeat:repeat;
+    height: 100%;
+    background-position: center;
+    background-position-y: 100px;
+    background-size: 60%;
+}
+div img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.s_1{
+    height: 600px;
+    width: 500px;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 100px;
+    position: absolute;
+}
+.s_2{
+    height: 100px;
+    width: 100px;
+    margin-top: 610px;
+    margin-left: 60px;
+    position: absolute;
+}

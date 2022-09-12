@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(69, 89, 107) ;
+    background-image: url(../Images/dipper_page.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-x:center;
+    background-position-y: 71px;
+    background-size: 27%;
+}
+.monster{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 790px;
+}
+

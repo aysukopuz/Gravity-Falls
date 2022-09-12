@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(57 82 79);
+    background-image: url(../Images/soos_page.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-x: center;
+    background-position-y: 100px;
+    background-size: 40%;
+}
+div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.t_soos {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 100px;
+    opacity: 0.8;
+    position: absolute;
+}
+.t_soos:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
